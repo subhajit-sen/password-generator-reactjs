@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#0f172a,#020617);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+.heading{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* Main container */
+.container{
+  width: 50vw;
+  max-width: 650px;
+  background: #1e293b;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Password row */
+.row{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+/* Password input */
+.password{
+  flex: 1;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #f1f5f9;
+}
+
+/* Copy button */
+.copy{
+  background: #3b82f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.copy:hover{
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Labels */
+label{
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+/* Parameters section */
+.params{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 1.5rem;
+}
+
+/* Checkbox items */
+.items{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
