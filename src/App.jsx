@@ -64,7 +64,7 @@ function App() {
             <input
               type="range"
               min={6}
-              max={100}
+              max={25}
               value={length}
               onChange={(e) => setLength(parseInt(e.target.value))}
             />
